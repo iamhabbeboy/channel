@@ -30,4 +30,6 @@ func main() {
 	for n := range dataChan {
 		fmt.Printf("n = %d\n", n)
 	}
+	// Context
+	DoContext()
 }
